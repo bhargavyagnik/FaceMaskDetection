@@ -1,5 +1,16 @@
-# FaceMaskDetection
-Face Mask Detection Using Deep Learning and Computer Vision
+# Face mask Detection
 
-This is a simple face mask detection project using the dataset found online . [ Dataset Source ](https://github.com/prajnasb/observations)
- Currently working on creating a robust pipeline to use it via NVIDIA Jetson and use it in real world
+Face Mask Detection using Deep Learning and Computer Vision using webcam in real time
+
+The Images used for training the deep learning model is a computer generated dataset by compining the facial detection and adding the mask using OpenCV.
+Dataset used from [Source](https://github.com/prajnasb/observations)
+
+I have tried 3 models, tested all of them , and found out lighter models work fine.
+
+## Currently Working on
+
+Currently working to train and test on **NVIDIA Jetson** so we can apply it in real world.
+
+*Mobilenet v2* is used in this case and still not shared as it  is in development phase
+ 
+ 
